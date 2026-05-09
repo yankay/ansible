@@ -1,0 +1,35 @@
+###IMAGE: xudingjun3131/uos:1060e
+###--- /etc/os-release ---
+PRETTY_NAME="UOS Server 20"
+NAME="UOS Server 20"
+VERSION_ID="20"
+VERSION="20"
+ID=uos
+HOME_URL="https://www.chinauos.com/"
+BUG_REPORT_URL="https://bbs.chinauos.com/"
+VERSION_CODENAME=fuyu
+PLATFORM_ID="platform:uel20"
+###--- ls /etc release files ---
+-rw-r--r--  1 root root     22 Jun  1  2023 UnionTech-release
+-rw-r--r--  1 root root     92 Jun  1  2023 lsb-release
+-rw-r--r--  1 root root    216 Jun  1  2023 os-release
+lrwxrwxrwx  1 root root     17 Jun  1  2023 system-release -> UnionTech-release
+-rw-r--r--  1 root root     41 Jun  1  2023 system-release-cpe
+###--- /etc/system-release ---
+uos release 20 (fuyu)
+###--- /etc/redhat-release ---
+###--- /etc/openEuler-release ---
+###--- /etc/UnionTech-release ---
+uos release 20 (fuyu)
+###--- /etc/anolis-release ---
+###--- /etc/lsb-release ---
+DISTRIB_ID=Uos
+DISTRIB_RELEASE=20
+DISTRIB_DESCRIPTION="UOS Server 20"
+DISTRIB_CODENAME=fuyu
+###--- pkg managers ---
+/usr/bin/rpm
+/usr/bin/yum
+/usr/bin/dnf
+###--- uname ---
+Linux 3865fb2cef00 5.4.0-216-generic #236-Ubuntu SMP Fri Apr 11 19:53:21 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux

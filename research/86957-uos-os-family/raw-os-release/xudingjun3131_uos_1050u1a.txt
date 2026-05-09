@@ -1,0 +1,44 @@
+###IMAGE: xudingjun3131/uos:1050u1a
+###--- /etc/os-release ---
+PRETTY_NAME="UnionTech OS Server 20"
+NAME="UnionTech OS Server 20"
+VERSION_ID="20"
+VERSION="20"
+ID=uos
+HOME_URL="https://www.chinauos.com/"
+BUG_REPORT_URL="https://bbs.chinauos.com/"
+VERSION_CODENAME=kongzi
+PLATFORM_ID="platform:uelc20"
+###--- ls /etc release files ---
+-rw-r--r--  1 root root     40 Nov 24  2022 UnionTech-release
+lrwxrwxrwx  1 root root     11 Nov 24  2022 anolis-release -> uos-release
+-rw-r--r--  1 root root    103 Nov 24  2022 lsb-release
+lrwxrwxrwx  1 root root     22 Nov 24  2022 os-release -> ..//usr/lib/os-release
+lrwxrwxrwx  1 root root     11 Nov 24  2022 redhat-release -> uos-release
+lrwxrwxrwx  1 root root     11 Nov 24  2022 system-release -> uos-release
+-rw-r--r--  1 root root     46 Nov 24  2022 system-release-cpe
+-rw-r--r--  1 root root     40 Nov 24  2022 uos-release
+###--- /etc/system-release ---
+UnionTech OS Server release 20 (kongzi)
+###--- /etc/redhat-release ---
+UnionTech OS Server release 20 (kongzi)
+###--- /etc/debian_version ---
+###--- /etc/uos-release ---
+UnionTech OS Server release 20 (kongzi)
+###--- /etc/anolis-release ---
+UnionTech OS Server release 20 (kongzi)
+###--- /etc/openEuler-release ---
+###--- /etc/uniontech-release ---
+###--- /etc/lsb-release ---
+DISTRIB_ID=Uos
+DISTRIB_RELEASE=20
+DISTRIB_DESCRIPTION="UnionTech OS Server 20"
+DISTRIB_CODENAME=kongzi
+###--- /etc/UnionTech-release ---
+UnionTech OS Server release 20 (kongzi)
+###--- pkg managers ---
+/usr/bin/rpm
+/usr/bin/yum
+/usr/bin/dnf
+###--- uname ---
+Linux d24254265aa2 5.4.0-216-generic #236-Ubuntu SMP Fri Apr 11 19:53:21 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux

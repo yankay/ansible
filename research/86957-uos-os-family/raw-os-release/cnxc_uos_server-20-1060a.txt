@@ -1,0 +1,42 @@
+###IMAGE: cnxc/uos:server-20-1060a
+###--- /etc/os-release ---
+PRETTY_NAME="UOS Server 20"
+NAME="UOS Server 20"
+VERSION_ID="20"
+VERSION="20"
+ID=uos
+HOME_URL="https://www.chinauos.com/"
+BUG_REPORT_URL="https://bbs.chinauos.com/"
+VERSION_CODENAME=kongzi
+PLATFORM_ID="platform:uelc20"
+###--- ls /etc release files ---
+lrwxrwxrwx  1 root root     11 Nov 30  2023 anolis-release -> uos-release
+-rw-r--r--  1 root root     94 Nov 30  2023 lsb-release
+lrwxrwxrwx  1 root root     22 Nov 30  2023 os-release -> ..//usr/lib/os-release
+lrwxrwxrwx  1 root root     11 Nov 30  2023 redhat-release -> uos-release
+lrwxrwxrwx  1 root root     11 Nov 30  2023 system-release -> uos-release
+-rw-r--r--  1 root root     37 Nov 30  2023 system-release-cpe
+-rw-r--r--  1 root root     31 Nov 30  2023 UnionTech-release
+-rw-r--r--  1 root root     31 Nov 30  2023 uos-release
+###--- /etc/system-release ---
+UOS Server release 20 (kongzi)
+###--- /etc/redhat-release ---
+UOS Server release 20 (kongzi)
+###--- /etc/debian_version ---
+###--- /etc/uos-release ---
+UOS Server release 20 (kongzi)
+###--- /etc/anolis-release ---
+UOS Server release 20 (kongzi)
+###--- /etc/openEuler-release ---
+###--- /etc/uniontech-release ---
+###--- /etc/lsb-release ---
+DISTRIB_ID=Uos
+DISTRIB_RELEASE=20
+DISTRIB_DESCRIPTION="UOS Server 20"
+DISTRIB_CODENAME=kongzi
+###--- pkg managers ---
+/usr/bin/rpm
+/usr/bin/yum
+/usr/bin/dnf
+###--- uname ---
+Linux a3d15f689d9a 5.4.0-216-generic #236-Ubuntu SMP Fri Apr 11 19:53:21 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
